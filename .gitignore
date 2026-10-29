@@ -1,0 +1,29 @@
+# Dependencias y herramientas locales
+node_modules/
+.vercel/
+.local/
+
+# Secretos (solo se permite una plantilla sin credenciales)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Originales de marca, mockups, capturas y entregables locales
+/output/
+/tmp/
+
+# Resultados generados
+/dist/
+/build/
+/coverage/
+/playwright-report/
+/test-results/
+*.log
+
+# Archivos del sistema y del editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
