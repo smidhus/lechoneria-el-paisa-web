@@ -1,6 +1,6 @@
-# Lechonería El Paisa - Guía de marca v1.0
+# Lechonería El Paisa - Guía de marca v1.1
 
-Actualizada el 28 de octubre de 2026. Identidad digital de trabajo, basada en las selecciones del propietario. Fondo crema, lettering con remates y personaje aprobado sin sombrero ni pañoleta. La composición conjunta se adaptó mediante imagegen; puede tener pequeñas diferencias respecto de las referencias originales. No sustituye un original vectorial de imprenta.
+Actualizada el 15 de noviembre de 2026. Identidad digital de trabajo, basada en las selecciones del propietario. Fondo crema, lettering con remates y personaje aprobado sin sombrero ni pañoleta. La composición conjunta se adaptó mediante imagegen; puede tener pequeñas diferencias respecto de las referencias originales. No sustituye un original vectorial de imprenta.
 
 ## Vista de la marca
 
@@ -8,11 +8,13 @@ Actualizada el 28 de octubre de 2026. Identidad digital de trabajo, basada en la
 
 ## Idea y personalidad
 
-Negocio familiar de Medellín, desde 2010. Voz cercana, hospitalaria, alegre y con voseo natural. El personaje evoca al padre del propietario: robusto, con bermuda y delantal, sonrisa abierta y mano que invita a pasar. Conservar orejas caídas, cuerpo compacto, tenis crema, manos de caricatura, camiseta amarilla, bermuda roja y delantal crema. No agregar sombrero, pañoleta, carriel o poncho a esta versión.
+Negocio familiar de Medellín, desde 2007. Voz cercana, hospitalaria, alegre y con voseo natural. El personaje evoca al padre del propietario: robusto, con bermuda y delantal, sonrisa abierta y mano que invita a pasar. Conservar orejas caídas, cuerpo compacto, tenis crema, manos de caricatura, camiseta amarilla, bermuda roja y delantal crema. No agregar sombrero, pañoleta, carriel o poncho a esta versión.
 
 ## Archivos de referencia
 
-- `output/brand/logo-el-paisa.png`: composición conjunta transparente, 1942 x 809 px. Composición anterior conservada como fuente. Proporción 2.4005:1.
+- `output/brand/logo-el-paisa-derecha.png`: composición vigente transparente, 1762 × 809 px, personaje a la derecha y «DESDE 2007». Usar esta versión para nuevas piezas.
+
+- `output/brand/logo-el-paisa.png`: composición conjunta transparente, 1944 x 809 px. Composición anterior conservada como fuente. Proporción 2.403:1.
 - `output/brand/letras-el-paisa.png`: lettering separado transparente, 1774 x 887 px. Proporción 2:1.
 - `output/brand/personaje-el-paisa.png`: personaje separado transparente, 1024 x 1536 px. Proporción 2:3.
 - `public/assets/brand/`: composición vigente en SVG con raster incrustado y favicon de cabeza en PNG (16, 32 y 48 px). Las variantes anteriores están archivadas fuera de la carpeta pública.
@@ -31,7 +33,7 @@ Los PNG son imágenes raster, no vectores. No ampliar un PNG para simular resolu
 
 El logo es lettering personalizado generado a partir de las referencias elegidas, de estilo serif gruesa de remates suaves, curvas redondeadas y aire de rótulo familiar. No hay una fuente comercial identificada ni un archivo de fuente que reproduzca exactamente estas letras. No atribuirlo a una familia tipográfica concreta ni sustituirlo por una fuente similar sin rediseño aprobado.
 
-Composición: «Lechonería» café arriba (siempre con tilde), «El Paisa» rojo en mayor tamaño, «DESDE 2010» pequeño debajo. Borde crema con contorno café. El PNG conjunto incluye un pequeño soporte crema detrás de la fecha; el archivo de letras separado deja la fecha directamente sobre transparencia. Son adaptaciones distintas: usar el conjunto completo sin mezclar versiones.
+Composición: «Lechonería» café arriba (siempre con tilde), «El Paisa» rojo en mayor tamaño, «DESDE 2007» pequeño debajo. Borde crema con contorno café. El PNG conjunto incluye un pequeño soporte crema detrás de la fecha; el archivo de letras separado deja la fecha directamente sobre transparencia. Son adaptaciones distintas: usar el conjunto completo sin mezclar versiones.
 
 Para títulos de la web: Fraunces, pesos 700-800, eje SOFT 70 y WONK 0. Sus remates suaves acompañan el lettering sin sustituirlo. Archivo `public/assets/fonts/fraunces-variable.ttf`, licencia SIL OFL en `OFL-Fraunces.txt`. Fuente obtenida del repositorio oficial google/fonts, carpeta ofl/fraunces.
 
@@ -68,7 +70,7 @@ Propuesta de tarjeta: 90 x 50 mm, fondo crema, lettering centrado al frente (apr
 
 Sangrado orientativo de 3 mm y margen interno de 4 mm, sujetos a la imprenta. Si pide PDF/X, CMYK o tintas planas, preparar un arte final específico. Esta guía es un documento Markdown informativo, no una tarjeta lista para imprimir ni un PDF/X.
 
-A 300 ppp, el ancho máximo de los PNG sin remuestreo es aproximadamente: conjunto 164 mm; letras 150 mm; personaje 87 mm. Cálculo: píxeles / 300 x 25.4. Esto no certifica la legibilidad del texto pequeño. Para fachada, bordado, corte de vinilo y gran formato: trazar manualmente el arte aprobado como curvas, revisar nodos y contraformas, simplificar sombras y generar SVG/PDF vectoriales. No envolver el PNG en un SVG y llamarlo vector.
+A 300 ppp, el ancho máximo de los PNG sin remuestreo es aproximadamente: conjunto vigente 149 mm; letras 150 mm; personaje 87 mm. Cálculo: píxeles / 300 x 25.4. Esto no certifica la legibilidad del texto pequeño. Para fachada, bordado, corte de vinilo y gran formato: trazar manualmente el arte aprobado como curvas, revisar nodos y contraformas, simplificar sombras y generar SVG/PDF vectoriales. No envolver el PNG en un SVG y llamarlo vector.
 
 ## Usos que deben evitarse
 
@@ -76,7 +78,7 @@ No cambiar las letras rojas a blanco, añadir amarillo como fondo, recuperar som
 
 ## Entrega y siguientes pasos
 
-Paquete: tres PNG transparentes, WebP para web, favicon, fuentes Manrope y Fraunces con sus licencias, esta guía Markdown editable y prompts. El PNG conjunto manda para la aplicación combinada; los archivos separados permiten piezas donde solo se use un elemento. No regenerar la marca por IA cada vez que se necesite una tarjeta.
+Paquete: tres PNG transparentes, WebP para web, favicon, fuentes Manrope y Fraunces con sus licencias, esta guía Markdown editable y prompts. El PNG `logo-el-paisa-derecha.png` manda para la aplicación combinada; los archivos separados permiten piezas donde solo se use un elemento. No regenerar la marca por IA cada vez que se necesite una tarjeta.
 
 Pendientes para un sistema de producción definitivo: trazado vectorial, versión monocroma, pruebas de impresión al tamaño final y ajuste de color con la imprenta. Las fotografías de comida y ambiente de la web siguen siendo ilustrativas y no forman parte del logo.
 
@@ -97,3 +99,7 @@ El 28 de octubre se eligió el personaje a la derecha, acercado al lettering, si
 ## Favicon de cabeza
 
 Variante de tamaño pequeño generada con image_gen integrado a partir del personaje aprobado: solo cabeza, orejas, hocico y sonrisa, con contorno café y borde crema. No sustituye el logo principal. Exportaciones PNG de 16, 32 y 48 píxeles declaradas en el HTML. Original y prompt locales: `output/brand/favicon-cara-original.png` y `output/brand/favicon-cara-prompt.txt`. Comparativa a tamaño real: `output/previews/favicon-tamanos.png`.
+
+## Corrección del año de fundación
+
+Desde el 15 de noviembre de 2026, la fecha correcta es **2007**. Se actualizaron los textos del sitio, el lettering, las composiciones del logo, los mockups de fachada de día y noche y el kit. Mantener el personaje a la derecha en la composición vigente. El archivo `logo-el-paisa.png` es una base de trabajo con otra distribución, no la composición de uso aprobada.
